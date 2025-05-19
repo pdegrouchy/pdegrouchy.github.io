@@ -1,0 +1,25 @@
+#pdf .solution .show-solution{
+	color: transparent;
+}
+
+#pdf .solution .show-solution::before{
+	content:'Solution';
+	color: #333;
+}
+
+#pdf .solution .solution-content {
+	display: block;
+}
+
+#pdf .code-and-solution .solution-content.hide {
+	display: inline;
+}
+
+#pdf .fragment {
+	opacity: inherit;
+	visibility: inherit;
+}
+
+#pdf .reveal h3 {
+	padding-left: 2em;
+}

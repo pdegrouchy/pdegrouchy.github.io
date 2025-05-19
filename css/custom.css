@@ -1,0 +1,70 @@
+.reveal p{
+	text-align: left;
+}
+
+.reveal .solution .solution-content {
+    display: none;
+    line-height: 28px;
+}
+
+.reveal .solution .hide-solution {
+    display: none;
+    cursor: pointer;
+}
+
+.reveal .solution .show-solution {
+    cursor: pointer;
+}
+
+
+.reveal .solution .hide-solution i,
+.reveal .solution .show-solution i {
+    font-size: 30px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.reveal .js .solution .show-solution {
+    display: inline;
+}
+
+.reveal pre code {
+    padding: 10px 20px;
+    //overflow: visible;
+    max-height: inherit;
+}
+
+.reveal pre {
+    font-family: "courier new", courier, monospace;
+    font-size: 28px;
+    margin-bottom: 30px;
+    line-height: 35px;
+    width: auto;
+}
+/*
+Hide the code executed by SKULPT js
+*/
+.reveal textarea {
+    visibility: hidden
+}
+
+/* button used for executing python code */
+.btn-primary {
+    background-color: #428BCA;
+    border-color: #357EBD;
+    color: #FFFFFF;
+}
+
+.button {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: inline;
+    color: #fff;
+    font-size: 14px;
+    background: #6193CB;
+    border: none;
+}
+
+.reveal .usage {
+    font-size: 28px;
+}

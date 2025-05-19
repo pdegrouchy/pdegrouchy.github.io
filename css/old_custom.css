@@ -1,0 +1,261 @@
+.reveal i{
+    font-family: 'FontAwesome';
+    font-style: normal;
+}
+
+html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal iframe, .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p, .reveal blockquote, .reveal pre, .reveal a, .reveal abbr, .reveal acronym, .reveal address, .reveal big, .reveal cite, .reveal code, .reveal del, .reveal dfn, .reveal em, .reveal img, .reveal ins, .reveal kbd, .reveal q, .reveal s, .reveal samp, .reveal small, .reveal strike, .reveal strong, .reveal sub, .reveal sup, .reveal tt, .reveal var, .reveal b, .reveal u, .reveal i, .reveal center, .reveal dl, .reveal dt, .reveal dd, .reveal ol, .reveal ul, .reveal li, .reveal fieldset, .reveal form, .reveal label, .reveal legend, .reveal table, .reveal caption, .reveal tbody, .reveal tfoot, .reveal thead, .reveal tr, .reveal th, .reveal td, .reveal article, .reveal aside, .reveal canvas, .reveal details, .reveal embed, .reveal figure, .reveal figcaption, .reveal footer, .reveal header, .reveal hgroup, .reveal menu, .reveal nav, .reveal output, .reveal ruby, .reveal section, .reveal summary, .reveal time, .reveal mark, .reveal audio, video {
+	text-align: left;
+}
+
+.reveal {
+	font-size: 33px;
+}
+
+.reveal h1 {
+	font-size: 1.5em;
+}
+
+.reveal h1 {
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 60px;
+}
+
+.reveal h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.reveal h3 {
+    font-size: 32px;
+    margin-bottom: 50px;
+    text-transform: inherit;
+    letter-spacing: inherit;
+    font-family: "courier new", courier, monospace;
+}
+.reveal h4 {
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 30px;
+    text-transform: lowercase;
+}
+/* end titles */
+
+
+/* table summary */
+.reveal p {
+    margin-bottom: 30px;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+.reveal ul li {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-bottom: 5px;
+}
+
+.reveal .table-index {
+    margin-top: 40px;
+    list-style-type: none;
+}
+
+.reveal .table-index ul {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    list-style-type: none;
+}
+
+.reveal .table-index li {
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+
+/* end table summary */
+
+.reveal ul {
+    margin: 0px 0 50px 20px;
+    width: 100%;
+}
+
+.reveal .ul-with-heading {
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.reveal pre {
+    font-family: "courier new", courier, monospace;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    line-height: 35px;
+    width: auto;
+}
+
+.reveal blockquote {
+    font-style: italic;
+    margin: 0px 30px 40px;
+    font-size: 21px;
+}
+
+.reveal blockquote .icon-quote-left {
+    font-size: 50px;
+    margin-right: 20px;
+    position: relative;
+    top: -5px;
+}
+
+.reveal blockquote:first-letter {
+    float: left;
+    margin: 5px 5px 5px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.reveal .note {
+    font-style: italic;
+    font-size: 19px;
+    color: #555;
+    margin: 20px 0;
+}
+
+.reveal .important {
+    margin: 50px 0;
+}
+
+.reveal .important .icon-warning-sign {
+    font-size: 50px;
+    margin-right: 15px;
+    vertical-align: top;
+
+}
+
+.reveal .break-line {
+    border: none;
+    background-color: #ccc;
+    width: 200px;
+    height: 1px;
+    text-align: center;
+    margin: 90px auto;
+}
+
+.reveal h4.exercice, .reveal h4.exercise {
+    font-size: 40px;
+}
+
+.reveal p.exercice {
+    margin: 40px 0 40px 0;
+}
+
+.reveal .exercice .icon-edit {
+    margin-right: 15px;
+}
+
+.reveal .solution .solution-content {
+    display: none;
+    line-height: 28px;
+}
+
+.reveal .solution .hide-solution {
+    display: none;
+    cursor: pointer;
+}
+
+.reveal .solution .show-solution {
+    cursor: pointer;
+}
+
+
+.reveal .solution .hide-solution i,
+.reveal .solution .show-solution i {
+    font-size: 30px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.reveal .js .solution .show-solution {
+    display: inline;
+}
+
+.reveal .wide-table {
+    text-align: left;
+}
+
+.reveal .wide-table th {
+    width: 300px;
+    padding: 20px 0;
+}
+
+.reveal .small-note {
+    font-size: 18px;
+}
+
+.reveal .list-no-bullet li {
+    list-style-type: none;
+}
+
+.reveal .code-and-solution {
+    cursor: pointer;
+}
+
+.reveal .code-and-solution .solution-content {
+    margin-left: 20px;
+    color :red;
+}
+
+.reveal .hide {
+    display: none;
+}
+
+.reveal .note-hint .icon-lightbulb {
+    margin-right: 15px;
+    font-size: 35px;
+}
+
+.reveal table caption {
+    text-align: left;
+}
+
+.reveal .img-center {
+    margin: 0 auto;
+    display: block
+}
+
+.reveal .inside-code, .reveal .c, .reveal code {
+    font-family: "courier new", courier, monospace;
+}
+
+.reveal pre code {
+    padding: 10px 20px;
+    //overflow: visible;
+    max-height: inherit;
+}
+
+.reveal .tighter-list li {
+    margin-bottom: -6px;
+}
+
+.reveal .looser-list li {
+    margin-bottom: 15px;
+}
+
+.reveal .column-list {
+    float: left;
+    margin-right: 50px;
+    width: 40%;
+}
+
+.reveal .aligned {
+    text-align: center;
+}
+
+.reveal .large {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.reveal .slide-number {
+    font-size: 35px;
+}
