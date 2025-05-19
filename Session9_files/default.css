@@ -1,0 +1,91 @@
+/*
+
+Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
+
+*/
+
+pre code {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #F0F0F0;
+}
+
+
+/* Base color: saturation 0; */
+
+pre code,
+pre .subst {
+  color: #444;
+}
+
+pre .comment {
+  color: #888888;
+}
+
+pre .keyword,
+pre .attribute,
+pre .selector {
+  font-weight: bold;
+}
+
+
+/* User color: hue: 0 */
+
+pre .type,
+pre .string,
+pre .number,
+pre .id,
+pre .class,
+pre .template_tag,
+pre .deletion {
+  color: #880000;
+}
+
+pre .title,
+pre .section {
+  color: #880000;
+  font-weight: bold;
+}
+
+pre .regexp,
+pre .symbol,
+pre .variable,
+pre .attr_selector,
+pre .pseudo {
+  color: #BC6060;
+}
+
+
+/* Language color: hue: 90; */
+
+pre .literal {
+  color: #78A960;
+}
+
+pre .built_in,
+pre .addition {
+  color: #397300;
+}
+
+
+/* Meta color: hue: 200 */
+
+pre .meta {
+  color: #1f7199;
+}
+
+/*.hljs-meta-string {
+  color: #4d99bf;
+}*/
+
+
+/* Misc effects */
+
+/*.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}*/

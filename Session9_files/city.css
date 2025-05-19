@@ -1,0 +1,63 @@
+p.newlogo {
+	position: relative;
+	z-index: 31;
+	margin-top: 0;
+	margin-left: 42px;
+}
+
+p.newlogo>a {
+	position: absolute;
+}
+
+p.newlogo>a>img {
+    width: 125px;
+
+}
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  display: block;
+  text-align: left;
+  margin: 0 0 0 1em;
+}
+
+.reveal section img {
+	background:none;
+	border:none;
+}
+
+/*.reveal .slides > section.present, .reveal .slides > section > section.present {
+    max-height: 75vh;
+    overflow-y: auto;
+    padding-right: 1em;
+}*/
+
+.reveal div.tryTrinket {
+    max-height: 30px;
+    font-size: 20px;
+    vertical-align: bottom;
+    height: 0.3em;
+    margin-top: 8px;
+    /* outline: 1px solid red; */
+}
+
+.reveal div.tryTrinket>a {
+    display: inline-block;
+    /* outline: 1px solid blue; */
+    right: 0;
+    position: absolute;
+}
+
+.reveal div.tryTrinket>a:hover img {
+    border: 0;
+    /* box-shadow: none; */
+}
+.reveal div.tryTrinket img {
+    margin: 0;
+    box-shadow: none;
+}
+
+.reveal .externalLink {
+    height: 14px;
+}
